@@ -76,7 +76,7 @@ services:
     user: "104"
     deploy:
       labels:
-        -  "traefik.frontend.rule=Host:grafana.localhost"
+        - "traefik.frontend.rule=Host:grafana.localhost"
         - "traefik.backend=grafana"
         - "traefik.port=3000"
         - "traefik.docker.network=inbound"
