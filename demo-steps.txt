@@ -1,0 +1,15 @@
+docker stack deploy -c docker-compose.yml traefik
+
+docker service ls
+
+localhost:8080
+
+localhost:8080/metrics
+
+http://grafana.localhost
+
+admin foobar
+
+docker stack deploy -c cats.yml cats
+
+http://cats.localhost
